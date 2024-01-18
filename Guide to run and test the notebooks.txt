@@ -1,0 +1,39 @@
+*** The notebook uploaded has the outputs saved already.
+*** it should be noted that im and ina files means IMAGE DATASET.
+*** im is used for multiclass classification and ina is used for binary classification
+*** similarly dm represents files and weights of direct readings where 
+*** dm is used for multiclass classification and dna is used for binary classification
+*** download the CSV files using the following links
+
+im - https://drive.google.com/file/d/1cEiMTIOpWKb23fvaKAyw3POWqgtsVIl1/view?usp=sharing
+ina - https://drive.google.com/file/d/1iBLlveLYXkCNLF_FRaw5IbMufZjOhh8I/view?usp=sharing
+dm - https://drive.google.com/file/d/1Rp0JCQPkXzArWu6jfBV4MXe6zw9O86eW/view?usp=sharing
+dna - https://drive.google.com/file/d/11cSpCVHGFZXlDZ42kdRhwyA2iRS9Wrih/view?usp=sharing
+
+
+1. Testing the Machine Learning Algorithm
+-> open the corresponding folder and find the jupiter notebook.
+-> open the notebook in Google Colab.
+-> Upload the CSV files from the Direct Readings and Image Dataset Folder.
+-> Run the cells.
+ 
+2. Testing the Neural Networks
+-> Open the corresponding folder and find the notebook to test the model.
+-> Open the Notebook in Colab.
+-> connect to GPU.
+-> Upload the weights folder (.pth file).
+-> upload the CSV files.
+-> Run the cells.
+-> If the keys are matched the cells run successfully and output is generated.
+
+3. Training and Testing the Neural Network 
+-> Open the folder and find the jupiter notebook.
+-> Open the notebook using colab.
+*** connect to GPU if for testing the Direct reading classifications using the NEural Network.
+-> Upload the CSV file.
+-> Run the cells.
+
+4. testing the augmentation
+-> open the notebook in colab.
+-> upload the sample images provided.
+-> a CSV file is saved at the end of the execution.
